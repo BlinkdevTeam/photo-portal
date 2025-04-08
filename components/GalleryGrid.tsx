@@ -7,7 +7,7 @@ type Props = {
 
 export default function GalleryGrid({ photos }: Props) {
   return (
-    <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4">
+    <div className="columns-1 sm:columns-1 md:columns-3 lg:columns-4 gap-4">
       {photos.map((src, index) => (
         <PhotoCard key={index} src={src} />
       ))}
