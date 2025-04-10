@@ -57,14 +57,14 @@ export default function Home() {
 
   return (
     <main
-      className="flex flex-col items-center justify-center gap-10 min-h-screen p-4 text-center text-white relative overflow-hidden"
+      className="flex flex-col items-center justify-start gap-10 min-h-screen p-4 text-center text-white relative overflow-hidden"
       style={{
         backgroundImage: "url('/assets/BCS_CP_CAPABILITIES.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      <div className="fixed top-25 flex flex-col justify-center items-center z-10 gap-6">
+      <div className="flex flex-col justify-center items-center z-10 gap-6 mt-20">
         <Image
           src="/assets/BCS_10TH_LOGO_WHITE@4x.png"
           alt="10 years Blink Creative Studio Logo"
