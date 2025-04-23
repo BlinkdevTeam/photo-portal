@@ -93,7 +93,7 @@ export default function Home() {
             className="w-screen flex flex-col justify-center items-center gap-2 mb-4 px-12"
           >
             <input
-              className="flex-1 border px-4 py-2 w-full text-black bg-white"
+              className="flex-1 border px-4 py-2 w-[300px] max-w-[500px] text-black bg-white"
               placeholder="Enter access code"
               value={code}
               onChange={(e) => setCode(e.target.value)}
@@ -120,13 +120,12 @@ export default function Home() {
           width={0}
           height={0}
           sizes="100vw"
+          className="w-[400px] max-w-[500px] h-auto"
           style={{
             position: "absolute",
             bottom: -200,
             left: "50%",
             transform: "translateX(-50%)",
-            width: "100%",
-            height: "auto",
             zIndex: 0,
           }}
         />

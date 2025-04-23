@@ -51,9 +51,7 @@ export default function GalleryPage() {
   if (images.length === 0 && !loading) {
     return (
       <main className="min-h-screen p-6">
-        <h1 className="text-2xl font-aileron mb-6">
-          Gallery for Code: {code}
-        </h1>
+        <h1 className="text-2xl font-aileron mb-6">Gallery for Code: {code}</h1>
         <p className="text-center text-gray-500 font-inter">
           No images found for this code.
         </p>
@@ -120,9 +118,9 @@ export default function GalleryPage() {
                       <path
                         d="M20.875 14.625V18.7917C20.875 19.3442 20.6555 19.8741 20.2648 20.2648C19.8741 20.6555 19.3442 20.875 18.7917 20.875H4.20833C3.6558 20.875 3.12589 20.6555 2.73519 20.2648C2.34449 19.8741 2.125 19.3442 2.125 18.7917V14.625M6.29167 9.41667L11.5 14.625M11.5 14.625L16.7083 9.41667M11.5 14.625V2.125"
                         stroke="#900B09"
-                        stroke-width="2.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
 
